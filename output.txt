@@ -1,0 +1,71 @@
+INFO:root:User: user at user@example.com accessed Computer-1
+INFO:root:User: user at user@example.com accessed Computer-2
+INFO:root:User: user at user@example.com accessed Computer-5
+INFO:root:User: user at user@example.com accessed Computer-6
+INFO:root:User: user at user@example.com accessed Computer-7
+INFO:root:User: user at user@example.com accessed Computer-8
+INFO:root:User: user at user@example.com accessed Computer-9
+INFO:root:User: user at user@example.com accessed Computer-10
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-1
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-2
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-5
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-6
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-7
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-8
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-9
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-10
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-1
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-1
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-1
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-2
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-5
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-6
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-7
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-8
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-9
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-10
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-1
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-1
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-1
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-1
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-1
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-1
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-2
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-5
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-6
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-7
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-8
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-9
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-10
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-1
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-2
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-5
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-6
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-7
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-8
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-9
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-10
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-1
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-1
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-1
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-1
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-1
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-2
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-5
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-6
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-7
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-8
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-9
+INFO:root:2015-05-26 -- User: user at user@example.com accessed Computer-10
+INFO:root:2015-05-27 -- User: user at user@example.com accessed Computer-1
+INFO:root:2015-05-27 -- User: user at user@example.com accessed Computer-1
+INFO:root:2015-05-27 -- User: user at user@example.com accessed Computer-1
+INFO:root:2015-05-27 -- User: user at user@example.com accessed Computer-1
+INFO:root:2015-05-27 -- User: user at user@example.com accessed Computer-1
+INFO:root:2015-05-27 -- User: user at user@example.com accessed Computer-2
+INFO:root:2015-05-27 -- User: user at user@example.com accessed Computer-5
+INFO:root:2015-05-27 -- User: user at user@example.com accessed Computer-6
+INFO:root:2015-05-27 -- User: user at user@example.com accessed Computer-7
+INFO:root:2015-05-27 -- User: user at user@example.com accessed Computer-8
+INFO:root:2015-05-27 -- User: user at user@example.com accessed Computer-9
+INFO:root:2015-05-27 -- User: user at user@example.com accessed Computer-10
