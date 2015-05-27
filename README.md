@@ -16,5 +16,5 @@ ComputerLog.csv: This is a csv file that contains the raw data. This is used by 
 
 output.txt: This file is created by `log_reader.py`. When a computer is found to match the criteria, we log that information in this log.  
 
-Contact information  
+#####Contact information  
 For any questions or comments, please email [me here](mailto:mnickey@gmail.com).
