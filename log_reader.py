@@ -29,9 +29,12 @@ import csv
 import datetime
 import logging
 
-# Set global variables
+# SET GLOBAL VARIABLES
+# This is the time delta. To change this time, change the number to the days that you want to search the log for.
 DAY = datetime.timedelta(days=4)
+# Format of the dates that are being compared
 FORMAT = "%Y-%m-%d"
+# Create a date variable for the current date
 TODAY = datetime.date.today()
 
 # Set the log output file, and the log level
