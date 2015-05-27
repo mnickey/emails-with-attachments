@@ -2,6 +2,7 @@
 __author__ = 'Michael Nickey'
 
 """
+REQUEST:
 On a Host that is connected to a LAN, you have a log-file that contains a list of users who have
 logged onto some of the machines on the network,
 in the past 24 hrs. Write a script that searches for computers on the network that are currently online,
@@ -27,8 +28,8 @@ The log file contains
 import csv
 import datetime
 import logging
-import smtplib
 
+# Set global variables
 DAY = datetime.timedelta(days=4)
 FORMAT = "%Y-%m-%d"
 TODAY = datetime.date.today()
@@ -39,8 +40,9 @@ logging.basicConfig(filename="output.txt", level=logging.DEBUG)
 def csv_dict_reader(file_obj):
     """
     Read a CSV file using csv.DictReader
-    :param file_obj:
-    :return: info from the CSV log file
+    :param file_obj: This is the logfile that is to be read. The log file needs to be in CSV format
+    :return: info from the CSV log file of those users that have a time delta greater than what is set in DAY.
+    In this example the time delta is set to 4 days.
     """
     reader = csv.DictReader(file_obj, delimiter=',')
 
@@ -53,7 +55,12 @@ def csv_dict_reader(file_obj):
             send_the_Mail(line["User Email"])
 
 def send_the_Mail(recipient):
-    # Import the email libraries
+    """
+    This function takes in recipient and will send the email to that email address with an attachment.
+    :param recipient: the email of the person to get the text file attachment
+    """
+
+    # Import the needed email libraries
     from email.mime.text import MIMEText
     from email.mime.application import MIMEApplication
     from email.mime.multipart import MIMEMultipart
@@ -93,11 +100,6 @@ def send_the_Mail(recipient):
     # Send the email
     smtp.sendmail(msg['From'], msg['To'], msg.as_string() )
     smtp.quit()
-    # server.ehlo()
-    # server.starttls()
-    # server.login(username, password)
-    # server.sendmail(send_from, send_to, msg=msg.attach(part))
-    # server.quit()
 
 if __name__ == "__main__":
     with open("ComputerLog.csv",) as f_obj:
