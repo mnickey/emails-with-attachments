@@ -98,7 +98,7 @@ def send_the_Mail(recipient):
     # Start the server
     smtp.ehlo()
     smtp.starttls()
-    smtp.login('mnickey@gmail.com', 'ifrfqsuzrqssdzzn')
+    smtp.login('ENTER YOUR EMAIL LOGIN USERNAME', 'ENTER YOUR PASSWORD HERE')
 
     # Send the email
     smtp.sendmail(msg['From'], msg['To'], msg.as_string() )
